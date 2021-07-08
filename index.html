@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Student Survey</h1>
+    </header>
+    <section class="container">
+        <form action="">
+            <div class="row">
+                <div class="level">
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="input">
+                    <input type="text" id="fname" placeholder="Enter first name">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="level">
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="input">
+                    <input type="text" id="lname" placeholder="Enter last name">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="level">
+                    <label for="mail">Email</label>
+                </div>
+                <div class="input">
+                    <input type="email" id="mail" placeholder="Enter your email">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="level">
+                    <label for="age">Age (Optional)</label>
+                </div>
+                <div class="input">
+                    <input type="email" id="age" placeholder="Enter your age">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="level">
+                    <label for="birth">Date of Birth</label>
+                </div>
+                <div class="input">
+                    <input type="date" id="birth">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="level">
+                    <label for="city">Your City</label>
+                </div>
+                <div class="input">
+                    <select name="city" id="city">
+                        <option value="Select your city">Select your city</option>
+                        <option value="Dhaka">Dhaka</option>
+                        <option value="Chattogram">Chattogram</option>
+                        <option value="Rajshahi">Rajshahi</option>
+                        <option value="Rangpur">Rangpur</option>
+                        <option value="Mymensingh">Mymensingh</option>
+                        <option value="Sylhet">Sylhet</option>
+                        <option value="Barishal">Barishal</option>
+                        <option value="Khulna">Khulna</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="level">
+                    <label for="gender">Gender</label>
+                </div>
+                <div class="input">
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="others" name="gender" value="Others">
+                    <label for="others">Others</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="level">
+                    <label for="group">Group</label>
+                </div>
+                <div class="input">
+                    <select name="group" id="group">
+                        <option value="Select your city">Select your group</option>
+                        <option value="Science">Science</option>
+                        <option value="Commerce">Commerce</option>
+                        <option value="Humanities">Humanities</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="level">
+                    <label for="comment">Comment</label>
+                </div>
+                <div class="input">
+                    <textarea name="comment" id="comment" placeholder="Write your comment"></textarea>
+                </div>
+            </div>
+
+            <div class="input button">
+                <input type="submit" value="Submit">
+            </div>
+
+        </form>
+    </section>
+</body>
+
+</html>
